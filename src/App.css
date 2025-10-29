@@ -1,0 +1,46 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: "poppins", sans-serif;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 60%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.book-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 8px;
+}
